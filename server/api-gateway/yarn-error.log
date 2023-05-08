@@ -1,0 +1,39 @@
+Arguments: 
+  /home/hashstudioz/.nvm/versions/node/v16.19.1/bin/node /usr/bin/yarn add -D typescript ts-node dotenv nodemon prettier @types/prettier @types/express @types/dotenv @types/express-http-proxy
+
+PATH: 
+  /home/hashstudioz/.nvm/versions/node/v16.19.1/bin:/home/hashstudioz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/hashstudioz/go/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: registry.yarnpkg.com. is not in the cert's altnames: DNS:undeveloped.com, DNS:undeveloped.es, DNS:undeveloped.cn, DNS:undeveloped.uk, DNS:undeveloped.eu, DNS:undeveloped.us, DNS:undeveloped.nl, DNS:undeveloped.be, DNS:undeveloped.co.uk, DNS:undeveloped.domains, DNS:dan.com, DNS:www.dan.com, DNS:undeveloped.fr, DNS:undeveloped.nu
+      at new NodeError (node:internal/errors:387:5)
+      at Object.checkServerIdentity (node:tls:354:12)
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1549:27)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:953:8)
+      at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:734:12)
+
+npm manifest: 
+  {
+    "name": "api-gateway",
+    "version": "0.1.0",
+    "description": "Api gateway of microservices",
+    "main": "server.ts",
+    "author": "itschirag-me",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

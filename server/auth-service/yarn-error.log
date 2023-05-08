@@ -1,0 +1,51 @@
+Arguments: 
+  /home/hashstudioz/.nvm/versions/node/v16.19.1/bin/node /usr/bin/yarn add mongoose lodash moment
+
+PATH: 
+  /home/hashstudioz/.nvm/versions/node/v16.19.1/bin:/home/hashstudioz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/hashstudioz/go/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/hashstudioz/Project/mern/ecommerce-app/server/auth-service/package.json: Unexpected token } in JSON at position 473
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "api-gateway",
+    "version": "0.1.0",
+    "description": "Api gateway of microservices",
+    "main": "server.ts",
+    "author": "itschirag-me",
+    "license": "MIT",
+    "devDependencies": {
+      "@types/dotenv": "^8.2.0",
+      "@types/express": "^4.17.17",
+      "@types/prettier": "^2.7.2",
+      "dotenv": "^16.0.3",
+      "nodemon": "^2.0.22",
+      "prettier": "^2.8.8",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.0.4"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
