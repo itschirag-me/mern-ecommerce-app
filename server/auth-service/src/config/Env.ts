@@ -31,6 +31,8 @@ const Env = {
   REDIRECT_URL: process.env.REDIRECT_URL!,
 
   MONGO_URI: process.env.MONGO_URI!,
+
+  API_GATEWAY: process.env.API_GATEWAY!,
 };
 
 export default Env;

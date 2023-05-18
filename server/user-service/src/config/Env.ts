@@ -1,5 +1,5 @@
-import dotenv from "dotenv";
 import path from "path";
+import dotenv from "dotenv";
 
 const NODE_ENV = process.env.NODE_ENV!;
 
@@ -9,7 +9,7 @@ switch (NODE_ENV) {
     break;
 
   case "production":
-    dotenv.config({ path: path.join(__dirname, "../../.env") });
+    dotenv.config({ path: path.join(__dirname, "../../../.env") });
     break;
 
   default:

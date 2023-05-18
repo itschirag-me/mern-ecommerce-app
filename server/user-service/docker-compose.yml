@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - 8010:8010
+    depends_on:
+      - mongo
+    environment:
+      - NODE_ENV=production
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017
